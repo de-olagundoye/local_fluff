@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Sun",
+    "mass": "1,989,100,000,000,000,000,000 billion kg (333,060 x Earth)",
+    "circumference": "4,370,005.6 km",
+    "surface_temperature": "9932 °F",
+    "age": "4.6 billion Earth years",
+    "img": "images/sun.png"
+  },
+
+  {
+    "id": 2,
+    "name": "Mercury",
+    "mass": "330,104,000,000,000 billion kg (0.055 x Earth)",
+    "circumference": "15,329 km",
+    "moons": "None",
+    "orbit_distance": "57,909,227 km (0.39 AU)",
+    "orbit_period": "87.97 Earth days",
+    "surface_temperature": "-279.4 to 800.6°F",
+    "discovered": "14th century BC",
+    "discovered_by": "Assyrian astronomers",
+    "age": "4.503 billion Earth years",
+    "day": "58d 15h 30m",
+    "img": "images/mercury.png"
+  },
+
+  {
+    "id": 3,
+    "name": "Venus",
+    "mass": "4,867,320,000,000,000 billion kg (0.815 x Earth)",
+    "circumference": "38,025 km",
+    "moons": "none",
+    "orbit_distance": "108,209,475 km (0.73 AU)",
+    "orbit_period": "224.70 Earth days",
+    "surface_temperature": "863.6 °F",
+    "discovered": "17th century BC",
+    "discovered_by": "Babylonian astronomers",
+    "age": "4.503 billion Earth years",
+    "day": "116d 18h 0m",
+    "img": "images/venus.png"
+  },
+
+  {
+    "id": 4,
+    "name": "Earth",
+    "mass": "5,972,190,000,000,000 billion kg",
+    "circumference": "40,030 km",
+    "moons": "1",
+    "orbit_distance": "149,598,262 km (1 AU)",
+    "orbit_period": "365.26 Earth days",
+    "surface_temperature": " -126.4 to 136.4°F",
+    "age": "4.543 billion Earth years",
+    "day": "1",
+    "img": "images/earth.png"
+  },
+
+  {
+    "id": 5,
+    "name": "Mars",
+    "mass": " 641,693,000,000,000 Billion kg (0.107 x Earth)",
+    "circumference": "21,297 km",
+    "moons": "2",
+    "orbit_distance": "227,943,824 km (1.38 AU)",
+    "orbit_period": "686.98 Earth days (1.88 Earth years)",
+    "surface_temperature": "-124.6 to 23 °F",
+    "discovered": "2nd millennium BC",
+    "discovered_by": "Egyptian astronomers",
+    "age": "4.503 billion Earth years",
+    "day": "1d 0h 40m",
+    "img": "images/mars.png"
+  },
+
+  {
+    "id": 6,
+    "name": "Jupiter",
+    "mass": "1,898,130,000,000,000,000 billion kg (317.83 x Earth)",
+    "circumference": "439,264 km",
+    "moons": "67",
+    "orbit_distance": "778,340,821 km (5.20 AU)",
+    "orbit_period": "4,332.82 Earth days (11.86 Earth years)",
+    "surface_temperature": "-162.4°F",
+    "discovered": "7th or 8th century BC",
+    "discovered_by": "Babylonian astronomers",
+    "age": "4.503 billion Earth years",
+    "day": "0d 9h 56m",
+    "img": "images/jupiter.png"
+  },
+
+  {
+    "id": 7,
+    "name": "Saturn",
+    "mass": "568,319,000,000,000,000 billion kg (95.16 x Earth)",
+    "circumference": "365,882 km",
+    "moons": "62",
+    "orbit_distance": "1,426,666,422 km (9.58 AU)",
+    "orbit_period": "10,755.70 Earth days (29.45 Earth years)",
+    "surface_temperature": "-218.2 °F",
+    "discovered": "8th century BC",
+    "discovered_by": "Assyrian astronomers",
+    "age": "4.503 billion Earth years",
+    "day": " 0d 10h 39m",
+    "img": "images/saturn.png"
+  },
+
+  {
+    "id": 8,
+    "name": "Uranus",
+    "mass": "86,810,300,000,000,000 billion kg (14.536 x Earth)",
+    "circumference": "159,354 km",
+    "moons": "27",
+    "orbit_distance": "2,870,658,186 km (19.22 AU)",
+    "orbit_period": "30,687.15 Earth days (84.02 Earth years)",
+    "surface_temperature": "-322.6 °F",
+    "discovered": "March 13th, 1781",
+    "discovered_by": "William Herschel",
+    "age": "4.503 billion Earth years",
+    "day": "0d 17h 14m",
+    "img": "images/uranus.png"
+  },
+
+  {
+    "id": 9,
+    "name": "Neptune",
+    "mass": "102,410,000,000,000,000 billion kg (17.15x Earth)",
+    "circumference": "155,600 km",
+    "moons": "14",
+    "orbit_distance": "4,498,396,441 km (30.10 AU)",
+    "orbit_period": "60,190.03 Earth days (164.79 Earth years)",
+    "surface_temperature": "-329.8 °F",
+    "discovered": " September 23rd, 1846",
+    "discovered_by": "Urbain Le Verrier & Johann Galle",
+    "age": "4.503 billion Earth years",
+    "day": "0d 16h 6m",
+    "img": "images/neptune.png"
+  }
+]

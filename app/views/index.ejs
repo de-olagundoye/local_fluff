@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SolarApp">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="pure_drawer/dist/css/pure-drawer.css"/>
+    <link rel="stylesheet" href="pure_drawer/dist/scss/pure-drawer.scss"/>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script> 
+    <script src="js/calculator_controller.js"></script>
+    <script src="js/solar_controller.js"></script>
+    <script src="js/dateformat.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+  </head>
+  <div class="pure-container" data-effect="pure-effect-reveal">
+    <input type="checkbox" id="pure-toggle-top" class="pure-toggle" data-toggle="right"> 
+    <label class="pure-toggle-label" for="pure-toggle-top" data-toggle-label="right"> 
+    <span class="pure-toggle-icon"></span> 
+    </label> 
+    <div class="pure-drawer" data-position="top"> 
+      <nav class="navbar navbar-light bg-faded">
+        <h3> 
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="/">Planets</a></li>
+            <li role="presentation"><a href="/calculator">LIC Age Calculator</a></li>
+          </ul> 
+        </h3>
+      </nav>
+    </div>
+    <div class="pure-pusher-container">
+      <div class="pure-pusher">
+        <body>
+          <div ng-controller="SolarController">
+            <div class="row">
+              <header class="col-xs-12">
+                <div ng-repeat="planet in solar_system | orderBy: orderProp">
+                  <a href="" class="planet" ng-click ="show(planet.id)" ng-init="showOrigin=true"> <img  ng-mouseover="animate(planet.id)" id={{planet.name}} src={{planet.img}}></a>
+                </div>
+              </header>
+
+              <div class="content">
+                <h1 ng-if="!thisPlanet.img">Welcome to the Local Intersteller Cloud</h1>
+                <h3 ng-if="!thisPlanet.img">Click on any planet above to learn more about it.</h3>
+                <div class="show">
+                  <img id="show-{{thisPlanet.name}}" class="user-select img-show" src={{thisPlanet.img}}> 
+                  <ul style="list-style: none">
+                    <h1>{{thisPlanet.name}}</h1>
+                    <p ng-if="thisPlanet.age"><strong>Age:</strong> {{thisPlanet.age}}</p>
+                    <p ng-if="thisPlanet.discovered"><strong>Discovered:</strong> {{thisPlanet.discovered}}</p>
+                    <p ng-if="thisPlanet.discovered_by"><strong>Discovered By:</strong> {{thisPlanet.discovered_by}}</p>
+                    <p ng-if="thisPlanet.surface_temperature"><strong>Surface Temperature</strong>: {{thisPlanet.surface_temperature}}
+                    <p ng-if="thisPlanet.mass"><strong>Mass:</strong> {{thisPlanet.mass}}</p>
+                    <p ng-if="thisPlanet.circumference"><strong>Circumference:</strong> {{thisPlanet.circumference}}</p>
+                    <p ng-if="thisPlanet.moons"><strong>Number of Moons:</strong> {{thisPlanet.moons}}</p>
+                    <p ng-if="thisPlanet.orbit_distance"><strong>Orbit Distance:</strong> {{thisPlanet.orbit_distance}}</p>
+                    <p ng-if="thisPlanet.orbit_period"><strong>Orbit Period:</strong> {{thisPlanet.orbit_period}}</p>
+                    <p ng-if="thisPlanet.day"><strong>Length of a Day:</strong> {{thisPlanet.day}}</p></p>
+                    <br>
+                    <p ng-if="thisPlanet.orbit_distance">Click <a href="/calculator"><strong>here</strong></a> to calculate your age on {{thisPlanet.name}}!</p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          <footer></footer>
+          </div>
+        </body>
+      </div>
+    </div>
+    <label class="pure-overlay" for="pure-toggle-right" data-overlay="right"></label> 
+  </div>
+</html>

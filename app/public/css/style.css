@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+body {
+  min-width:1200px;
+  width: auto !important;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: url("/images/space.jpg"); 
+  min-width:98%;
+  width: auto !important;
+  width:100%;
+  height: 300px;
+  padding-bottom: 50px;
+  color: #FFFFFF;
+}
+
+h1,
+h3 { 
+  color: #717D8C !important; 
+  text-align: center;
+}
+
+p {
+  color: #2F343A;
+}
+
+img {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+a:link,
+a:visited {
+  color: #717D8C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5D809D;
+}
+
+footer {
+  height: 100px;
+  background-color: #091627;
+}
+
+input[type="text"] {
+  border-radius: 2px;
+  border: none;
+  box-shadow: none;
+  transition: box-shadow 0.3s;
+  background-color : #091627; 
+}
+
+input[type="text"]:focus{
+  outline : 2px;
+}
+
+ul.nav h3:hover { 
+  background-color: transparent;
+}
+
+ul.nav a:hover { 
+  background-color: transparent;
+}
+
+.container {
+  max-width: none !important;
+  width: 970px;
+}
+
+.content {  
+  min-height: 700px;
+  background-color: #DDDDDD !important;
+  padding-top: 0 !important;
+}
+
+.show {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.img-show {   
+  display: block;
+  margin: auto;
+  max-width: 300px; 
+  padding-top: 50px;
+}
+
+.planet {
+  float: left;
+}
+
+.calculator {
+  padding-top: 50px; 
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.calculations {
+  height: 330px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.calculator-thumb {    
+  display: block;
+  margin: auto;
+  height: 150px !important;
+  padding-bottom: 30px;
+}
+
+.thumbnail {
+  background-color: transparent !important;
+  border: none !important;
+  margin: 0 auto !important;
+}
+
+.btn { 
+  font-size: 15px;
+  color: #FFFFFF; 
+  background-color: transparent;
+}
+
+.btn:hover { 
+  color: #FFFFFF; 
+  background-color: #091627;
+  text-decoration: underline;
+}
+
+.results{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#Sun {
+  padding-top: 50px;
+  width: 300px;
+}
+
+#Mercury {
+  padding-top: 210px;
+  width: 60px;
+}
+
+#Venus {
+  padding-top: 150px;
+  width: 80px;
+}
+
+#Earth {
+  padding-top: 90px;
+  width: 80px;
+}
+
+#Mars {
+  padding-top: 120px;
+  width: 70px;
+}
+
+#Jupiter {
+  padding-top: 90px;
+  width: 150px;
+}
+
+#Saturn {
+  padding-top: 90px;
+  width: 200px;
+}
+
+#Uranus {
+  padding-top: 140px;
+  width: 115px;
+}
+
+#Neptune {
+  padding-top: 180px;
+  width: 110px;
+}
