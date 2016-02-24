@@ -38,17 +38,9 @@
                 <header class="calculator col-lg-12">
                   <h1>Local Interstellar Cloud Age Calculator</h1>
                   <div class="calculator">
-                    <label for="month">
-                      <p>Month:</p>
-                    </label>
+                    <h3> Please enter your birth date</h3>
                     <input id="month" class="dateEntry" type="text" tabindex="1" placeholder="MM" size="3" maxlength="2" onkeyup="nextBox(this)">
-                    <label for="day">
-                      <p>Day: </p>
-                    </label>
                     <input id="day" class="dateEntry" type="text" tabindex="2" placeholder="DD" size="3" maxlength="2" onkeyup="nextBox(this)">
-                    <label for="year">
-                      <p>Year: </p>
-                    </label>
                     <input id="year" class="dateEntry" type="text" tabindex="3" placeholder="YYYY" size="5" maxlength="4" onkeyup="nextBox(this)">
                     <br>
                     <button id="calculate" class="btn btn-sm" ng-click="compute_age()">Calculate</button>

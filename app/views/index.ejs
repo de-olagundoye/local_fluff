@@ -41,8 +41,8 @@
               </header>
 
               <div class="content">
-                <h1 ng-if="!thisPlanet.img">Welcome to the Local Intersteller Cloud</h1>
-                <h3 ng-if="!thisPlanet.img">Click on any planet above to learn more about it.</h3>
+                <h1 ng-if="!thisPlanet.img">Welcome to the <strong>Local Intersteller Cloud</strong></h1>
+                <h3 ng-if="!thisPlanet.img">Click any planet above to learn more about it.</h3>
                 <div class="show">
                   <img id="show-{{thisPlanet.name}}" class="user-select img-show" src={{thisPlanet.img}}> 
                   <ul style="list-style: none">
@@ -58,7 +58,7 @@
                     <p ng-if="thisPlanet.orbit_period"><strong>Orbit Period:</strong> {{thisPlanet.orbit_period}}</p>
                     <p ng-if="thisPlanet.day"><strong>Length of a Day:</strong> {{thisPlanet.day}}</p></p>
                     <br>
-                    <p ng-if="thisPlanet.orbit_distance">Click <a href="/calculator"><strong>here</strong></a> to calculate your age on {{thisPlanet.name}}!</p>
+                    <p ng-if="thisPlanet.orbit_distance"><a href="/calculator">Click here to calculate your age on {{thisPlanet.name}}!</a></p>
                   </ul>
                 </div>
               </div>
