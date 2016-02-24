@@ -2,10 +2,10 @@
   "name": "local_fluff",
   "version": "1.0.0",
   "description": "stuff about the solar system",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "npm test",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
