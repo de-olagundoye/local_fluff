@@ -30,6 +30,7 @@
     "karma": "^0.13.21",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.7",
+    "karma-requirejs": "^0.2.5",
     "protractor": "^3.1.1",
     "requirejs": "^2.1.22"
   }
